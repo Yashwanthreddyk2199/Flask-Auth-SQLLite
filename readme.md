@@ -24,7 +24,4 @@ Run the Docker container from the image you just built:
 docker run -p 5000:5000 userapp
 ```
 
-
-- `-p 8080:80`: Map port 80 in the container to port 8080 on your host machine.
-
 Now, your application should be running at `http://127.0.0.1:5000`.
